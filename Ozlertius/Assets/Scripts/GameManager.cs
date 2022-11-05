@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
         if(Physics.Raycast(player.transform.position,player.transform.TransformDirection(Vector3.forward),out hit))
         {
 
-            hit.collider.GetComponent<>
+            
 
             Debug.DrawRay(player.transform.position, player.transform.TransformDirection(Vector3.forward) * hit.distance);
         }
