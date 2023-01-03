@@ -1,0 +1,672 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'tr' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Teknogenetik/Desktop/Projeler/unity-projects/Hamster Rush
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57013
+Successfully changed project path to: C:/Users/Teknogenetik/Desktop/Projeler/unity-projects/Hamster Rush
+C:/Users/Teknogenetik/Desktop/Projeler/unity-projects/Hamster Rush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 68.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Teknogenetik/Desktop/Projeler/unity-projects/Hamster Rush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.12029.7019
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004677 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (474ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (337ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005404 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Added "DREAMTECK_SPLINES" from Standalone Scripting define in Player Settings
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Dreamteck.Editor.ScriptingDefineUtility:Add (string,UnityEditor.BuildTargetGroup,bool) (at Assets/Dreamteck/Utilities/Editor/ScriptingDefineUtility.cs:16)
+Dreamteck.Splines.Editor.AddScriptingDefines:.cctor () (at Assets/Dreamteck/Splines/Editor/WelcomeScreen.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Dreamteck/Utilities/Editor/ScriptingDefineUtility.cs Line: 16)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (760ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3522 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3979.
+Memory consumption went from 120.9 MB to 120.8 MB.
+Total: 2.678000 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.318700 ms  DeleteObjects: 0.083900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74445.620256 seconds.
+  path: Assets/Dreamteck/Splines
+  artifactKey: Guid(866c3652f7eea9344891cd280b38c098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines using Guid(866c3652f7eea9344891cd280b38c098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8fabaa223ce58c5312bc801c239fd9') in 0.009718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck
+  artifactKey: Guid(8ad654ea590808b4a867664e065fd163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck using Guid(8ad654ea590808b4a867664e065fd163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbd8df547d31183597c689ed6935862') in 0.004951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dreamteck/Splines/Dreamteck.Splines.asmdef
+  artifactKey: Guid(2fdef4a859838e3449b625605ab13c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Dreamteck.Splines.asmdef using Guid(2fdef4a859838e3449b625605ab13c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befc9ce8d086df2aa6dbc2a3ad39bb66') in 0.022985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.350736 seconds.
+  path: Assets/Dreamteck/Utilities/Editor/Images/discord.png
+  artifactKey: Guid(ca2ec96e04914514ca532b6d55c85db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities/Editor/Images/discord.png using Guid(ca2ec96e04914514ca532b6d55c85db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a3b2acd6b1ce6a07a566c12954e47f') in 0.078478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dreamteck/Utilities/Editor/Images/tutorials.png
+  artifactKey: Guid(1c2813fa4a97ab442b80f29592282375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities/Editor/Images/tutorials.png using Guid(1c2813fa4a97ab442b80f29592282375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca82e38a068df674ba649f518471a5a') in 0.009102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dreamteck/Utilities/Editor/Images/rate.png
+  artifactKey: Guid(2d408c4aeee3cf742a05436998ade025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities/Editor/Images/rate.png using Guid(2d408c4aeee3cf742a05436998ade025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82c6aa872ea2fa2b85614d94a1c156c') in 0.009310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dreamteck/Utilities/Editor/Images/examples.png
+  artifactKey: Guid(efab8674905315440a387b05c0ce5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities/Editor/Images/examples.png using Guid(efab8674905315440a387b05c0ce5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591bdfc3afc4eb8fed61cefd208dee09') in 0.009072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dreamteck/Utilities/Editor/Images/pdf.png
+  artifactKey: Guid(3cd14c6e15dcfdb41b9a79ef8554198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities/Editor/Images/pdf.png using Guid(3cd14c6e15dcfdb41b9a79ef8554198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3fc9a265ec43d9266df075487dc7b5') in 0.009027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dreamteck/Utilities/Editor/Images/playmaker.png
+  artifactKey: Guid(3ad88cea831f74448b8fbce9f906c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities/Editor/Images/playmaker.png using Guid(3ad88cea831f74448b8fbce9f906c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683fc2c872f0fddb2af7b06f05944c41') in 0.008511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dreamteck/Utilities/Editor/Images/manual.png
+  artifactKey: Guid(7004b4ab0ebf5ea43bd227e21913ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Utilities/Editor/Images/manual.png using Guid(7004b4ab0ebf5ea43bd227e21913ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8022b15172b0e1edf2ec6f9297800fa') in 0.009063 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005230 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3997.
+Memory consumption went from 121.2 MB to 121.1 MB.
+Total: 2.448100 ms (FindLiveObjects: 0.183600 ms CreateObjectMapping: 0.108400 ms MarkObjects: 2.102700 ms  DeleteObjects: 0.052800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005245 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 4000.
+Memory consumption went from 121.2 MB to 121.1 MB.
+Total: 2.963500 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.070900 ms MarkObjects: 2.596400 ms  DeleteObjects: 0.061700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005303 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 4003.
+Memory consumption went from 121.2 MB to 121.1 MB.
+Total: 3.313200 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.126700 ms MarkObjects: 2.916400 ms  DeleteObjects: 0.071200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 361.311259 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/LengthCalculator.png
+  artifactKey: Guid(b4b069b14ffccf146b40c7aae7c4818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/LengthCalculator.png using Guid(b4b069b14ffccf146b40c7aae7c4818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c32aaf2a528ecbad96ab03a49a0ee5') in 0.042577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/ObjectControllerCustomRule.png
+  artifactKey: Guid(956119420e783ba4e8c22ab8c32ed5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/ObjectControllerCustomRule.png using Guid(956119420e783ba4e8c22ab8c32ed5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c4edacf8403446d39d390b1a9d0fa2') in 0.009537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/SplineFollower.png
+  artifactKey: Guid(14d9ee407d8622249bb457e71b4400d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/SplineFollower.png using Guid(14d9ee407d8622249bb457e71b4400d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cb179bd40ec152ea77ba8e96d7f5a5') in 0.009900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/SurfaceGenerator.png
+  artifactKey: Guid(cf90d545cbe8b2a4197b471709a5e579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/SurfaceGenerator.png using Guid(cf90d545cbe8b2a4197b471709a5e579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a02ee37646987372b72de2e3d0ea9c') in 0.010094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/SplineRenderer.png
+  artifactKey: Guid(02f78a9ec76d40f49bfac78c64a754d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/SplineRenderer.png using Guid(02f78a9ec76d40f49bfac78c64a754d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fcc22a981df81f1235a19b96ac8145') in 0.010532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/TubeGenerator.png
+  artifactKey: Guid(b4e3f1d75c0b07f4890e7acab6fd1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/TubeGenerator.png using Guid(b4e3f1d75c0b07f4890e7acab6fd1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dca9230390693ae3efcefc118e95f2') in 0.010014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/PolygonColliderGenerator.png
+  artifactKey: Guid(5fad78752ebca1541a3321d08d1cd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/PolygonColliderGenerator.png using Guid(5fad78752ebca1541a3321d08d1cd041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb32ff2b64fb3dfbaa83f8522e86081d') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/SplineComputer.png
+  artifactKey: Guid(3c4c2926f013fcf498c19b14b90050c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/SplineComputer.png using Guid(3c4c2926f013fcf498c19b14b90050c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509e2c5f990455cde0bc38adacfd1248') in 0.010702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/SplineMesh.png
+  artifactKey: Guid(832e3a79eca687941a031a046045c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/SplineMesh.png using Guid(832e3a79eca687941a031a046045c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4945132341cbfb001ee68dc7f0b728') in 0.010063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/WaveformGenerator.png
+  artifactKey: Guid(608905f522fa0644398876606b832e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/WaveformGenerator.png using Guid(608905f522fa0644398876606b832e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bc5fb2cb5cffd95c419639e84e8d03') in 0.010003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dreamteck/Splines/Components/Icons/ParticleController.png
+  artifactKey: Guid(c78150f2237d29247b0f01c770f06979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/Icons/ParticleController.png using Guid(c78150f2237d29247b0f01c770f06979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf5e680660b6f73e5472b2e9bba344a') in 0.010420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.291737 seconds.
+  path: Assets/Dreamteck/Splines/Components/ObjectController CustomRules/Spiral Rule.asset
+  artifactKey: Guid(6cc6a0bc50b20b44a925efc90a98fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Components/ObjectController CustomRules/Spiral Rule.asset using Guid(6cc6a0bc50b20b44a925efc90a98fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161fb8d86b0147b7a78e2ec8001f0bf4') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.292756 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/add_dark.png
+  artifactKey: Guid(96b7dbe2cec681345a8b3f4dc38944d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/add_dark.png using Guid(96b7dbe2cec681345a8b3f4dc38944d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1971681b7e671987a552b80a5a0f8fbf') in 0.009703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/mirror.png
+  artifactKey: Guid(8197b9198a564c84c8d4cce2a508c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/mirror.png using Guid(8197b9198a564c84c8d4cce2a508c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2886701bc4c95d9144e452fb5c4751') in 0.010246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/merge.png
+  artifactKey: Guid(398d7dd5aa8459b419055e5c0b70d6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/merge.png using Guid(398d7dd5aa8459b419055e5c0b70d6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0612a7721bfc3310024021ec17279c6') in 0.009160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/remove_dark.png
+  artifactKey: Guid(6c52483422841154a88cf13e132c0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/remove_dark.png using Guid(6c52483422841154a88cf13e132c0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde6112ca626b9bcfe7bdaa603eaae9d') in 0.009414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/normal.png
+  artifactKey: Guid(99d6f760b0b77774c8e2729dca0a4ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/normal.png using Guid(99d6f760b0b77774c8e2729dca0a4ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0597a4d605dd1ac6cc339396a9708589') in 0.009260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/remove.png
+  artifactKey: Guid(34ec387670b2ac84198cf7daf3f99b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/remove.png using Guid(34ec387670b2ac84198cf7daf3f99b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4399b18414303c74a2819fe049b1907c') in 0.009563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/split_dark.png
+  artifactKey: Guid(dfef37ecae1f2f84ebc676a9ffe7a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/split_dark.png using Guid(dfef37ecae1f2f84ebc676a9ffe7a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e457b3908a8c2bcb98726c1a1b10181') in 0.009868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/merge_on_dark.png
+  artifactKey: Guid(5b45a94533ad4bf4d9ed738cab95e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/merge_on_dark.png using Guid(5b45a94533ad4bf4d9ed738cab95e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165b13429e09c5f01acf42fcd463e006') in 0.009163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/forever.png
+  artifactKey: Guid(a8c6341b9146b274a86ea850426901eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/forever.png using Guid(a8c6341b9146b274a86ea850426901eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e0959e816cdfb2cce05f6b57fd7448') in 0.009677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/normal_dark.png
+  artifactKey: Guid(63ac7cde5dce9724da6bafdbb03c08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/normal_dark.png using Guid(63ac7cde5dce9724da6bafdbb03c08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39605099868906826ccbedfd10e67929') in 0.009751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/mirror_dark.png
+  artifactKey: Guid(cab37296a2dd70540b58ed03bd10881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/mirror_dark.png using Guid(cab37296a2dd70540b58ed03bd10881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15fff51b4bfdea558d3c3cfd23c4539') in 0.010149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dreamteck/Splines/Editor/Icons/mirror_on_dark.png
+  artifactKey: Guid(43cd1dbd630ef2d4ebd337ac2ab51a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Editor/Icons/mirror_on_dark.png using Guid(43cd1dbd630ef2d4ebd337ac2ab51a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c2d2a4bd0106fa2b0dc09fc7c5c9e0') in 0.009062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.377985 seconds.
+  path: Assets/Dreamteck/Splines/Examples/AudioVisualization/waveform.mat
+  artifactKey: Guid(01b24eeeed3c8c34ca64d698388e0216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/AudioVisualization/waveform.mat using Guid(01b24eeeed3c8c34ca64d698388e0216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d9e6c7e8df45ef1499bef25d8e30de') in 0.090094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.293331 seconds.
+  path: Assets/Dreamteck/Splines/Examples/Projection/NewLayer.terrainlayer
+  artifactKey: Guid(0ae36ed74f713ac4e92b63b8802d459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamteck/Splines/Examples/Projection/NewLayer.terrainlayer using Guid(0ae36ed74f713ac4e92b63b8802d459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ab30f2961122dad1f60c774b181404') in 0.014804 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 4049.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 2.525900 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.175300 ms  DeleteObjects: 0.070100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005037 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Teknogenetik\Desktop\Projeler\unity-projects\Hamster Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 4052.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 2.564900 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.121900 ms MarkObjects: 2.164900 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
