@@ -6,6 +6,7 @@ TagManager:
   tags:
   - chainsaw
   - tree
+  - deletearea
   layers:
   - Default
   - TransparentFX
