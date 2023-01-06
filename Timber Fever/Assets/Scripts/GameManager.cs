@@ -9,15 +9,15 @@ public class GameManager : MonoBehaviour
     public GameObject treeBody;
     public List<GameObject> roots;
     public GameObject middlePipe;
-    private int rotationSpeed = 50;
+    private int rotationSpeed = 40;
     public int money = 0;
     private int clickCount = 1;
     
 
-
-
     private void Start()
     {
+        Debug.Log(Vector3.up);
+
         moneyText.text = "Money : 0$";
         roots[0].GetComponent<root>().ActivateRoot();
         roots[0].GetComponent<Renderer>().material.color = Color.green;
@@ -25,10 +25,16 @@ public class GameManager : MonoBehaviour
 
     public void OpenNewRoot()
     {
-        roots[clickCount].GetComponent<root>().ActivateRoot();
-        roots[clickCount].GetComponent<Renderer>().material.color = Color.green;
-        clickCount++;
-        //roots[5].GetComponent<root>().ActivateRoot();
+        if(money >= 5)
+        {
+            money = money - 5;
+            moneyText.text = "Money : " + money + "$";
+            roots[clickCount].GetComponent<root>().ActivateRoot();
+            roots[clickCount].GetComponent<Renderer>().material.color = Color.green;
+            clickCount++;
+            //roots[5].GetComponent<root>().ActivateRoot();
+        }
+
     }
     
 

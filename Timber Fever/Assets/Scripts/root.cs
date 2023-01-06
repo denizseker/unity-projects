@@ -7,6 +7,8 @@ public class root : MonoBehaviour
 {
     public GameObject treeBody;
 
+    private GameObject newbody;
+
     public bool isEmpty = true;
 
     public bool isRootActive = false;
@@ -16,7 +18,7 @@ public class root : MonoBehaviour
 
 
     //Chainsaw root üstünden geçince
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
 
         if(other.gameObject.tag == "chainsaw")
@@ -24,7 +26,9 @@ public class root : MonoBehaviour
             //Root aktif ise timer baþlýyor ve aðaçlar büyüyor.
             if (isRootActive && !isTimerActive)
             {
-                StartCoroutine(SpawnTreeTimer());
+                newbody = Instantiate(treeBody, new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z), Quaternion.identity);
+                newbody.transform.SetParent(transform);
+                isEmpty = false;
             }
             
         }
@@ -33,27 +37,41 @@ public class root : MonoBehaviour
     //Click eventi ile rootu aktif ediyoruz.
     public void ActivateRoot()
     {
+        
         Debug.Log(this.name + ": aktif edildi.");
         isRootActive = true;
     }
 
+    private void FixedUpdate()
+    {
+        if(isRootActive && !isEmpty)
+        {
+            Debug.Log("fixed girdi");
+
+            newbody.transform.localScale = new Vector3(2, newbody.transform.localScale.y + 1.1f * Time.deltaTime, 2);
+        }
+        
+    }
+
+
+
 
     //Aðaçlarýn büyüyeceði sonsuz döngü
-    public IEnumerator SpawnTreeTimer()
-    {
-        sayac = sayac + 1;
-        isTimerActive = true;
-        yield return new WaitForSeconds(7.2f);
-        //Büyüme süresi geçtikten sonra root boþ ise aðacý ekliyoruz.
-        if (isEmpty)
-        {
+    //public IEnumerator SpawnTreeTimer()
+    //{
+    //    sayac = sayac + 1;
+    //    isTimerActive = true;
+    //    yield return new WaitForSeconds(9f);
+    //    //Büyüme süresi geçtikten sonra root boþ ise aðacý ekliyoruz.
+    //    if (isEmpty)
+    //    {
 
-            GameObject body = Instantiate(treeBody,new Vector3(transform.position.x,transform.position.y + 0.6f,transform.position.z),Quaternion.identity);
-            body.transform.SetParent(transform);
-            isEmpty = false;
-        }
-        StartCoroutine(SpawnTreeTimer());
-    }
+    //        GameObject body = Instantiate(treeBody,new Vector3(transform.position.x,transform.position.y + 0.6f,transform.position.z),Quaternion.identity);
+    //        body.transform.SetParent(transform);
+    //        isEmpty = false;
+    //    }
+    //    StartCoroutine(SpawnTreeTimer());
+    //}
 
 
 }

@@ -16,15 +16,16 @@ public class chainsawcontrol : MonoBehaviour
     {
         if (other.gameObject.tag == "tree")
         {
+
             //Bodynin rigidbodysini ve colliderýný çekiyoruz.
             Rigidbody treerb = other.GetComponent<Rigidbody>();
             CapsuleCollider treecol = other.GetComponent<CapsuleCollider>();
             //Bodynin kesildikten sonra istenilen noktaya düþmesi için kuvvet uyguluyoruz.
-            treerb.AddForce(-transform.right * 60);
-            treerb.AddForce(transform.up * 5);
-            //Aða. kesildiði için parayý arttýrýyoruz.
+            treerb.AddForce(-transform.right * 50);
+            treerb.AddForce(transform.up * 30);
+            //Aðaç kesildiði için parayý arttýrýyoruz.
             gameManager.GetComponent<GameManager>().money += 5;
-            gameManager.GetComponent<GameManager>().moneyText.text = "Money : "+ gameManager.GetComponent<GameManager>().money +"$";
+            gameManager.GetComponent<GameManager>().moneyText.text = "Money : " + gameManager.GetComponent<GameManager>().money + "$";
             //Rootun artýk boþ olduðunu belirtiyoruz ve parenttan ayýrýyoruz.
             other.GetComponentInParent<root>().isEmpty = true;
             other.transform.SetParent(null);
