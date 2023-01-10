@@ -10,21 +10,22 @@ public class GameManager : MonoBehaviour
     public List<GameObject> roots;
     public GameObject middlePipe;
     private int rotationSpeed = 40;
-    public int money = 0;
+    public int money;
     private int clickCount = 1;
     
 
     private void Start()
     {
-        Debug.Log(Vector3.up);
-
-        moneyText.text = "Money : 0$";
+        money = 200;
+        moneyText.text = "Money :"+money+"$";
         roots[0].GetComponent<root>().ActivateRoot();
         roots[0].GetComponent<Renderer>().material.color = Color.green;
     }
 
     public void OpenNewRoot()
     {
+        Debug.Log("Þuanki para :"+ money);
+
         if(money >= 5)
         {
             money = money - 5;
@@ -33,6 +34,10 @@ public class GameManager : MonoBehaviour
             roots[clickCount].GetComponent<Renderer>().material.color = Color.green;
             clickCount++;
             //roots[5].GetComponent<root>().ActivateRoot();
+        }
+        else
+        {
+            Debug.Log("para yetersiz");
         }
 
     }
