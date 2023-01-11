@@ -8,6 +8,6 @@ public class sawrotate : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+        transform.Rotate(rotationSpeed * Time.deltaTime * Vector3.up);
     }
 }
